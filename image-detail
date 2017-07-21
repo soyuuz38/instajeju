@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Feed | Instajeju</title>
+  <title>Image Detail | Instajeju</title>
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 " />
@@ -21,32 +21,34 @@
     </div>
   </nav>
 
-  <main class="feed">
+  <main class="image-detail">
     <div class="photo">
-      <header class="photo__header">
-        <a href="profile.html" class="photo__thumb"><img src="images/avatar.jpg"></a>
-        <span class="photo__username">mynameis</span>
-      </header>
       <img src="images/feedPhoto.jpg" class="photo__image">
-      <div class="photo__info">
-        <div class="photo__actions">
-          <i class="fa fa-heart-o"></i>
-          <i class="fa fa-comment-o"></i>
-        </div>
-
-        <span class="photo__likes">5,393 likes</span>
-        <ul class="photo__comments">
-          <li class="photo__comment"><span class="photo__comment-author">friend</span> <a href="profile.html">@unknownuser</a>,you r so stupid</li>
-          <li class="photo__comment"><span class="photo__comment-author">enemy</span> Hello?</li>
-          <li class="photo__comment"><span class="photo__comment-author">family</span> hi</li>
-          <li class="photo__comment"><span class="photo__comment-author">lover</span> listen</li>
-        </ul>
-        <span class="photo__date">12 hours ago</span>
-        <div class="photo__add-comment">
-          <textarea placeholder="Add comment..."></textarea>
-          <i class="fa fa-ellipsis-h"></i>
-        </div>
+    </div>
+    <header class="photo__header">
+      <a href="profile.html" class="photo__thumb"><img src="images/avatar.jpg"></a>
+      <span class="photo__username">mynameis</span>
+      <span class="photo__location">Koh Phi Phi Beach, Thailand</span>
+    </header>
+    <p class="blurblur">I want to go to Pai in Thailand. </p>
+    <ul class="photo__comments">
+      <li class="photo__comment"><span class="photo__comment-author">friend</span> <a href="profile.html">@unknownuser</a>,you r so stupid</li>
+      <li class="photo__comment"><span class="photo__comment-author">enemy</span> Hello?</li>
+      <li class="photo__comment"><span class="photo__comment-author">family</span> hi</li>
+      <li class="photo__comment"><span class="photo__comment-author">lover</span> listen</li>
+    </ul>
+    <div class="photo__info">
+      <div class="photo__actions">
+        <i class="fa fa-heart-o"></i>
+        <i class="fa fa-comment-o"></i>
       </div>
+      <span class="photo__likes">5,393 likes</span>
+      <span class="photo__date">12 hours ago</span>
+      <div class="photo__add-comment">
+        <textarea placeholder="Add comment..."></textarea>
+        <i class="fa fa-ellipsis-h"></i>
+      </div>
+    </div>
 
     </div>
 
@@ -74,5 +76,8 @@
 
   </footer>
 </body>
+
+</html>
+y>
 
 </html>
