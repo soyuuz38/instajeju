@@ -15,9 +15,17 @@
     <div class="login__column">
       <div class="login__box">
         <img src="images/logoLogin.png" class="login__logo" />
+        <form action="feed.html" method="get">
+          <input type="text" name="user" placeholder="Username" required />
+          <input type="password" name="pass" placeholder="Password" required />
+          <input type="submit" value="Log in" />
+        </form>
+        <span class="login_divider">or</span>
+        <a href="#" class="login__fb-link">Log in with Facebook</a>
+        <a href="#" class="login__link login__link--small">Forgot Password?</a>
       </div>
       <div class="login__box">
-        <span class="login__box">Don't have an account? <a href="profile.html">Sign up</a></span>
+        <span class="login__box">Don't have an account? <a href="#" class="login__link login__link--blue">Sign up</a></span>
       </div>
       <div class="login__box login__box--transparent">
         <span class="login__text">Get the app.</span>
