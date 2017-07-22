@@ -35,27 +35,49 @@
   margin-bottom: 10px;
 }
 
+.photo__actions {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.photo__actions i:first-child {
+  margin-right: 10px;
+}
+
+.photo__actions i {
+  cursor: pointer;
+}
+
 .photo .photo__likes {
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .photo .photo__comments {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .photo .photo__comments .photo__comment-author {
   font-weight: 600;
+  margin-right: 15px;
 }
 
 .photo .photo__date {
   color: grey;
   font-size: 12px;
   text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .photo .photo__add-comment {
   display: flex;
   margin-top: 10px;
+}
+
+.photo__comments a {
+  color: #003569;
 }
 
 .photo .photo__add-comment textarea {
@@ -73,4 +95,9 @@
 
 .photo .photo__add-comment textarea:focus {
   outline: none;
+}
+
+.photo .photo__add-comment i {
+  display: flex;
+  align-items: center;
 }
