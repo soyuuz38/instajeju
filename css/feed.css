@@ -1,0 +1,76 @@
+.feed {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 60px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.photo__header {
+  padding: 5px 5px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+}
+
+.photo img {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.photo__header .photo__thumb img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.photo__info {
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.photo .photo__likes {
+  font-weight: 600;
+}
+
+.photo .photo__comments {
+  margin-top: 10px;
+}
+
+.photo .photo__comments .photo__comment-author {
+  font-weight: 600;
+}
+
+.photo .photo__date {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.photo .photo__add-comment {
+  display: flex;
+  margin-top: 10px;
+}
+
+.photo .photo__add-comment textarea {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 15px;
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+.photo .photo__add-comment textarea:active {
+  outline: none;
+  opacity: 0.7;
+}
+
+.photo .photo__add-comment textarea:focus {
+  outline: none;
+}
