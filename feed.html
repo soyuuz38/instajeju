@@ -32,7 +32,7 @@
       <a href="image-detail.html"><img src="images/feedPhoto.jpg" class="photo__image"></a>
       <div class="photo__info">
         <div class="photo__actions">
-          <i class="fa fa-heart-o"></i>
+          <i class="fa fa-heart-o heart-pumping"></i>
           <i class="fa fa-comment-o"></i>
         </div>
         <span class="photo__likes">5,393 likes</span>
@@ -70,9 +70,17 @@
       </ul>
     </nav>
     <span class="footer__copy">© 2017 instagram</span>
-
-
   </footer>
+  <div class="overlay">
+    <i class="fa fa-times fa-2x"></i>
+    <div class="overlay__menu">
+      <a href="#" class="overlay__link">Report</a>
+      <a href="#" class="overlay__link">Embed</a>
+      <a href="#" id="deleteme" class="overlay__link">Cancel</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src=js/app.js "></script>
 </body>
 
 </html>

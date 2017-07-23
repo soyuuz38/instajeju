@@ -32,15 +32,12 @@
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
-  animation: 1.5s sweet infinite ease-in-out;
+  animation: 1.5s sweet ease-in-out;
 }
 
 @keyframes sweet {
   0% {
     transform: rotate(0turn);
-  }
-  50% {
-    transform: rotate(10turn);
   }
   100% {
     transform: rotate(-1turn);
@@ -64,7 +61,6 @@
 
 .photo__actions i {
   cursor: pointer;
-  transform: rotate(-180deg);
 }
 
 .photo .photo__likes {
@@ -119,4 +115,64 @@
 .photo .photo__add-comment i {
   display: flex;
   align-items: center;
+}
+
+.heart-pumping {
+  color: red;
+  animation: 1s pumping infinite linear;
+}
+
+@keyframes pumping {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.overlay i {
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.overlay .overlay__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.overlay__menu a {
+  background: white;
+  width: 400px;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.overlay__menu a:hover {
+  background: #e2e2e2;
+}
+
+#deleteme a:active {
+  display: none;
 }
