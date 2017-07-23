@@ -30,12 +30,49 @@
   height: 56px;
   border-radius: 50%;
   margin-right: 10px;
+  animation: 2s cool ease-in;
+}
+
+@keyframes cool {
+  0% {
+    opacity: 0;
+    transform: scale(1.5) translateY(-0.75em);
+  }
+  20% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(-1000em);
+  }
 }
 
 .users__name .users__username {
   display: block;
   font-weight: 600;
   margin-bottom: 5px;
+  animation: 1.5s spin-letters linear;
+}
+
+@keyframes spin-letters {
+  0%, 10% {
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+  30% {
+    opacity: 1;
+  }
+  70%, 86% {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+  95%, 100% {
+    opacity: 0;
+  }
 }
 
 .users__name .users__full-name {
