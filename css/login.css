@@ -39,6 +39,11 @@
 
 .login .login__box--transparent .login__appstore {
   height: 36px;
+  transition: all .1s linear;
+}
+
+.login__appstore:hover {
+  transform: rotate(10060deg);
 }
 
 .login .login__box form input {
@@ -50,6 +55,7 @@
   border: 1px solid #efefef;
   border-radius: 3px;
   font-size: 14px;
+  transition: all .1s ease-in;
 }
 
 .login .login__box form input:focus {
@@ -64,6 +70,7 @@
   background: #3897f0;
   color: white;
   border: 0;
+  transition: all .5s ease-in-out;
 }
 
 .login .login__box .login__divider {
