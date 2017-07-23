@@ -19,6 +19,11 @@
   max-width: 600px;
   margin: 0 auto;
   width: 100%;
+  transition: all;
+}
+
+.photo img:hover {
+  transform: rotate(180deg);
 }
 
 .photo__header .photo__thumb img {
@@ -27,6 +32,19 @@
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
+  animation: 1.5s sweet infinite ease-in-out;
+}
+
+@keyframes sweet {
+  0% {
+    transform: rotate(0turn);
+  }
+  50% {
+    transform: rotate(10turn);
+  }
+  100% {
+    transform: rotate(-1turn);
+  }
 }
 
 .photo__info {
