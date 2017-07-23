@@ -46,6 +46,7 @@
 
 .photo__actions i {
   cursor: pointer;
+  transform: rotate(-180deg);
 }
 
 .photo .photo__likes {
