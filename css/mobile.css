@@ -1,0 +1,49 @@
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .login {
+    display: flex;
+    justify-content: center;
+  }
+  .login .login__column-left img {
+    display: none;
+  }
+  .login__column {
+    flex-wrap: wrap;
+    border: none;
+  }
+  .navigation {
+    padding: 0 20px;
+  }
+  .navigation__input {
+    display: none;
+  }
+  .photo {
+    margin-top: 0;
+    background-color: transparent;
+    border: none;
+  }
+  .feed {
+    margin-top: 0;
+    border-top: none;
+  }
+  .explore {
+    margin-top: 0;
+    border-top: none;
+    border-bottom: none;
+  }
+  .photo .photo__add-comment {
+    display: none;
+  }
+  .footer {
+    width: 85%;
+  }
+  .footer, .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer__list {
+    margin-bottom: 10px;
+  }
+  .footer__list-item {
+    margin-bottom: 10px;
+  }
+}
