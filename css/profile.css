@@ -2,27 +2,35 @@
   margin: 0 auto;
   width: 100%;
   margin-top: 60px;
+  margin: 30px;
 }
 
 .profile__header {
   padding: 5px 5px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.profile .profile__bio {
+.profile__info .profile_name {
   display: inline-block;
 }
 
-.profile .profile__header img {
-  width: 80px;
-  height: 80px;
+.profile_username {
+  font-size: 40px;
+}
+
+.profile__header img {
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 50px;
+  align-items: center;
 }
 
 .profile .profile__images img {
   margin: 0 auto;
+  padding: 10px;
   width: 30%;
 }

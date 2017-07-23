@@ -1,0 +1,21 @@
+.photo--detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+  max-height: 500px;
+  background-color: white;
+}
+
+.photo--detail .photo__image {
+  min-height: 50%;
+  width: 60%;
+}
+
+.photo--detail .photo__info {
+  width: 40%;
+}
+
+.photo__comments {
+  ;
+}
